@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --text-color: #4A4A4A;
+    --text-color: whitesmoke;
+    --lightgray-text-color: #8A8A8A;
+    --lightgray-text-color: white;
+    --border-color: #DDDDDD;
+    --background-color: #FAFAFA;
+    --background-image: url(/images/background.png);
+    --main-text-size: 15px;
+    --subtitle-text-size: 21px;
+    --section-title-size: 27px;
+    --regular-text-weight: 400;
+    --medium-text-weight: 500;
+    --semibold-text-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-style: normal;
+    transition: all 500ms ease; 
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--hover-color);
+  font-style: normal;
+}
+
+input {
+    font-weight: 700;
+    font-size:20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  font-family: IBM Plex Sans, Arial, Helvetica, sans-serif;
+  font-weight: 500;   
+}
+
+.active-link {
+  color: var(--accent-color);
+}
+
+.disabled-link:hover {
+  color: var(--dark-color);
+}
